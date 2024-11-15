@@ -10,4 +10,7 @@ The study collected data from 424 PBC patients who met the eligibility criteria 
 - **112 additional cases** did not participate in the trial but agreed to baseline measurements and survival follow-up. Six of these cases were lost to follow-up soon after diagnosis, leaving 106 additional cases in the dataset.
 
 This dataset provides a valuable resource for studying clinical outcomes and survival analysis in PBC. For more background on the clinical trial and recorded covariates, refer to *Counting Processes and Survival Analysis* by Fleming and Harrington, Wiley, 1991, Chapter 0, Section 0.2, and related articles in *Hepatology* (Dickson et al., 1989) and *New England Journal of Medicine* (Markus et al., 1989).
+## Target Column: Stage
+
+The target column for this classification task is **`Stage`**, which represents the historical stage of primary biliary cirrhosis (PBC). Predicting this column is crucial as it directly influences treatment strategies and provides insights into the progression of the disease. By identifying the stage, healthcare professionals can design personalized treatment plans, monitor disease development over time, and intervene early to prevent complications. Furthermore, predicting the **`Stage`** allows for a better understanding of the factors contributing to disease advancement, ultimately improving patient 
 
